@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/consultar.js"></script>
+        <script type="text/javascript" src="js/guardar.js"></script>
+        <script type="text/javascript" src="js/actualizar.js"></script>
+        <script type="text/javascript" src="js/eliminar.js"></script>
+
+
+    <style type="text/css">
+   
+	
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <h1>&nbsp;</h1>
+        <h1>Clientes</h1>
+        <p>&nbsp;</p>
+        <p>
+            Registra un cliente
+    </p>
+        <div class="formulario" id="formulario">
+          <p>
+            <label><br>
+            </label>
+            <input id="id" type="text" placeholder="ID"/>
+            <br/>
+            <label><br>
+            </label>
+            <input id="name" type="text" placeholder="Nombre"/>
+            <br/>
+            <label><br>
+            </label>
+            <input id="email" type="mail" placeholder="E-mail"/>
+            <label><br>
+            <br>
+            </label>
+            <input id="age" type="number" placeholder="Edad"/>
+            <p><br/>
+            <button onClick="guardar()" type="button">💾Guardar</button> 
+            <button onClick="consultar()" type="button">🔍Consultar Datos</button>
+        
+    </div>
+        <p>&nbsp;</p>
+        <p><a href="computer/index.html" target="_self"><font color="#FFFFFF">Computadores</font></a> | <a href="mensajes/index.html" target="_self"><font color="#FFFFFF">Mensajes</font></a></p>
+    <center><div id="tabla"></div></center>
+
+    </body>
+</html>
