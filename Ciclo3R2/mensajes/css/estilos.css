@@ -1,0 +1,78 @@
+/*
+Hoja de estilos css
+
+*/
+
+#formulario {
+	margin: 0px auto;
+	background-color: #CCC;
+	padding: 10px;
+	width: 300px;
+    -webkit-box-shadow:0px 1px 5px 1px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow:0px 1px 5px 1px rgba(255, 255, 255, 0.4), 0.4;
+    box-shadow:0px 1px 5px 1 rgba(255, 255, 255, 0.4);
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+	color: #333333;
+}
+#formulario:hover {
+    background-color: rgb(230, 230, 230);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+}
+#formulario h1 a {
+	text-align: left;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color: #2A2A2A;
+	color: #fff;
+ }
+ td {
+	background: #fff;
+	color: #000;
+	text-align: left;
+
+ }
+    body {
+	background-color: #2A2A2A;
+	color: #FFF;
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.texto {
+	color: #333333;
+    text-align: center;
+}
+button [type=button] {
+	height: 30px;
+	width: auto;
+	background-color: #093;
+	color: #FFF;
+	font-size: 15px;
+	-webkit-box-shadow:0px 1px 5px 1px hsla(0, 0%, 0%,.4);
+	-moz-box-shadow:0px 1px 5px 1px hsla(0, 0%, 0%,.4);
+	box-shadow:0px 1px 5px 1 hsla(0, 0%, 0%,.4);
+	-webkit-appearance: none;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	}

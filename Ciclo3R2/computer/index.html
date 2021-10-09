@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/consultar.js"></script>
+        <script type="text/javascript" src="js/guardar.js"></script>
+        <script type="text/javascript" src="js/actualizar.js"></script>
+        <script type="text/javascript" src="js/eliminar.js"></script>
+
+
+    <style type="text/css">
+   
+	
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+        <h1>&nbsp;</h1>
+        <h1>Computadores</h1>
+        <p>&nbsp;</p>
+        <p>
+            Registra un computador
+        </p>
+        <div class="formulario" id="formulario">
+          <p>
+            <label><br>
+            </label>
+            <input id="id" type="number" placeholder="ID"/>
+            <br/>
+            <label><br>
+            </label>
+            <input id="brand" type="text" placeholder="Marca:"/>
+            <br/>
+            <label><br>
+            </label>
+            <input id="model" type="number" placeholder="Modelo:"/>
+            <label><br>
+            <br>
+            </label>
+            <input id="category_id" type="number" placeholder="Categoria:"/>
+            <p>
+            <input id="name" type="texto" placeholder="Nombre:"/>                        
+            <p><br/>
+            <button onClick="guardar()" type="button">💾Guardar</button> 
+            <button onClick="consultar()" type="button">🔍Consultar Datos</button>
+        
+    </div>
+        <p>&nbsp;</p>
+        <p><a href="../index.html" target="_self"><font color="#FFFFFF">Clientes</font></a> | <a href="../mensajes/index.html" target="_self"><font color="#FFFFFF">Mensajes</font></a></p>
+
+        <center><div id="tabla"></div></center>
+
+    </body>
+</html>
